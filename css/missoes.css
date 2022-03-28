@@ -1,0 +1,38 @@
+
+
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-panel {
+  border: 1px  black;
+  margin: 2px;
+  padding: 5px;
+}
+
+.accordion-panel > .accordion-body {
+  display: none;
+  
+}
+
+.accordion-panel.accordion-expanded > .accordion-body {
+  display: block;
+
+}
+
+div {
+  text-align: center;
+  position: relative;
+}
+
+h3{
+  color:rgb(53, 53, 53);
+}
+
+body{
+  background-image:url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+}
+
